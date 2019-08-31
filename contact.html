@@ -29,17 +29,17 @@
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <form action="https://formspree.io/barrett4467@gmail.com" method="POST">
-
-                        <div class='content' id="contact-form">
-                            <h1 id='contact'>Contact</h1>
-                            <h4 class='underline'>Name</h4>
-                            <input type="text" name="Name" placeholder="Your name...">
-                            <h4>Email</h4>
-                            <input type="email" required="Email" placeholder="Email...">
-                            <h4>Message</h4>
-                            <input id='text' type="text" required="Message" placeholder="Message...">
-                            <input id='button' type="submit">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
                         </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>
