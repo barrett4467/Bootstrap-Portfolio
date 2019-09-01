@@ -4,7 +4,7 @@
 
 nav {
     background-color: #fff;
-    border-bottom: 10px solid #59aaa5; 
+    border-bottom: 1px solid #cccccc; 
     /* eventually change to border color  */
 }
 /* Blue around name */
@@ -16,13 +16,13 @@ nav {
 }
 .badge-secondary {
     background-color: #59aaa5;
-    padding: 20px;
+    padding: 1rem;
 }
 
 /* About port and contact links  */
 .btn-group {
     background-color: #fff;
-    color: #a5a5af;
+    color: #cccccc;
     position: absolute;
     right: 0;
 }
@@ -31,33 +31,33 @@ nav {
     color: #fff;
     background-color: #fff;
     border: none;
-    border-right: 1px solid #a5a5af;
+    border-right: 1px solid #cccccc;
 }
 
 .btn-secondary {
     color: #fff;
     background-color: #fff;
     border: none;
-    border-left: 1px solid #a5a5af;
+    border-left: 1px solid #cccccc;
 }
 
 .btn.btn-secondary:hover {
     color: #fff;
     background-color: #fff;   
     box-shadow: none;
-    border-right: 1px solid #a5a5af;
+    border-right: 1px solid #cccccc;
 }
 
 /* Everything but contact */
 .btn-group>.btn-group:not(:last-child)>.btn {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    border-right: 1px solid #a5a5af;
+    border-right: 1px solid #cccccc;
 }
 
 /* Contact button */
 .btn:last-child {
-    border-left: 1px solid #a5a5af;
+    border-left: 1px solid #cccccc;
 }
  
 /* This is the magical bit that gets the hover border off */
@@ -67,7 +67,7 @@ nav {
 
 /* Makes links not blue  */
 a {
-    color: #ccc;
+    color: #cccccc;
 }
 
 a:hover {
@@ -77,31 +77,43 @@ a:hover {
 
 h1 {
     color: #59aaa5;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
 }
 
 .jumbotron {
     background-color: #fff;
     display: inline-block;
-    flex: 1 0 auto;
+    width: 100%;
 }
 
 /* Background pattern */
 .wrapper {
     background-image: url('../images/greyfloral.png');
     width: 100%;
-    padding: 20px;
+    padding: 2rem 1rem 20rem;
 }
 
 img {
     float: left;
-    padding-right: 10px;
+    padding-right: 1rem;
     max-width: 200px;
 }
 
-p {
-
+.btn-blue {
+    background-color: #59aaa5;
+    padding: 0.5rem 1rem; 
+    color: #fff;
 }
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
 
 #sticky-footer {
 flex-shrink: none;
