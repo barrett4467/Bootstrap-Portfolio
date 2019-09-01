@@ -1,3 +1,14 @@
+.container {
+    background-image: url('../images/greyfloral.png');
+    width: 100%;
+    padding: 20px;
+}
+
+nav {
+    background-color: #fff;
+    border-bottom: 10px solid #59aaa5; 
+    /* eventually change to border color  */
+}
 /* Blue around name */
 .badge {
     background-color: #59aaa5;
@@ -66,3 +77,14 @@ a:hover {
     text-decoration: none;
 }
 
+h1 {
+    color: #59aaa5;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.wrapper {
+
+}
