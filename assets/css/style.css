@@ -1,7 +1,5 @@
 .container {
-    background-image: url('../images/greyfloral.png');
-    width: 100%;
-    padding: 20px;
+
 }
 
 nav {
@@ -79,12 +77,31 @@ a:hover {
 
 h1 {
     color: #59aaa5;
+    padding-bottom: 20px;
 }
 
 .jumbotron {
     background-color: #fff;
+    display: inline-block;
+    flex: 1 0 auto;
 }
 
+/* Background pattern */
 .wrapper {
+    background-image: url('../images/greyfloral.png');
+    width: 100%;
+    padding: 20px;
+}
 
+img {
+    float: left;
+    padding-right: 10px;
+}
+
+p {
+
+}
+
+#sticky-footer {
+flex-shrink: none;
 }
