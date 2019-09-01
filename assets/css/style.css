@@ -27,38 +27,6 @@ nav {
     color: #fff;
     background-color: #fff;
     border: none;
-    border-right: 1px solid #cccccc;
-}
-
-.btn-secondary {
-    color: #fff;
-    background-color: #fff;
-    border: none;
-    border-left: 1px solid #cccccc;
-}
-
-.btn.btn-secondary:hover {
-    color: #fff;
-    background-color: #fff;   
-    box-shadow: none;
-    border-right: 1px solid #cccccc;
-}
-
-/* Everything but contact */
-.btn-group>.btn-group:not(:last-child)>.btn {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: 1px solid #cccccc;
-}
-
-/* Contact button */
-.btn:last-child {
-    border-left: 1px solid #cccccc;
-}
- 
-/* This is the magical bit that gets the hover border off */
-.btn:last-child:hover{
-    border-right: none;
 }
 
 /* Makes links not blue  */
