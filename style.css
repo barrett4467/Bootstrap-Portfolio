@@ -1,0 +1,59 @@
+/* Blue around name */
+.badge-secondary {
+    background-color: #59aaa5;
+    padding: 20px;
+}
+
+/* About port and contact links  */
+.btn-group {
+    background-color: #fff;
+    color: #a5a5af;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #a5a5af;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid #a5a5af;
+}
+
+.btn.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;   
+    box-shadow: none;
+    border-right: 1px solid #a5a5af;
+}
+
+/* Everything but contact */
+.btn-group>.btn-group:not(:last-child)>.btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid #a5a5af;
+}
+
+/* Contact button */
+.btn:last-child {
+    border-left: 1px solid #a5a5af;
+}
+ 
+/* This is the magical bit that gets the hover border off */
+.btn:last-child:hover{
+    border-right: none;
+}
+
+/* Makes links not blue  */
+a {
+    color: #ccc;
+}
+
+a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
