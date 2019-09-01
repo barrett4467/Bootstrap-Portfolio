@@ -1,4 +1,10 @@
 /* Blue around name */
+.badge {
+    background-color: #59aaa5;
+    color: #fff;
+    transition: none;
+    margin: 0px;
+}
 .badge-secondary {
     background-color: #59aaa5;
     padding: 20px;
@@ -8,6 +14,8 @@
 .btn-group {
     background-color: #fff;
     color: #a5a5af;
+    position: absolute;
+    right: 0;
 }
 
 .btn-secondary:not(:disabled):not(.disabled).active {
@@ -57,3 +65,4 @@ a:hover {
     color: #ccc;
     text-decoration: none;
 }
+
