@@ -81,6 +81,7 @@ p {
 }
 
 .card {
+    float: left;
     display: inline-block;
     margin: 1rem;
 }
