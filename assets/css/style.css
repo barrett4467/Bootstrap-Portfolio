@@ -49,6 +49,10 @@ h1 {
     color: #59aaa5;
     padding-bottom: 1rem;
 }
+
+p {
+    text-indent: 20px;
+}
 .background {
     /* Background pattern */
     background-image: url('../images/greyfloral.png');
